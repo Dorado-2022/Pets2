@@ -1,7 +1,10 @@
 package Pets2;
 public class Dog2 {
-    String colourOfFur;
+    String colorOfFur;
     double weight;
+    String breed;
+    int age;
+    boolean hasToyBone;
 
     void eat(String food) {
         System.out.println("Kaptam " + food + " -t a gazdámtól, vaúúúúú");
